@@ -64,7 +64,7 @@
     border-radius: 0 10px 10px 0;
 }
 
-.cards-wraper
+.cards-wrapper
 {
     display: flex;
     gap:18px;
@@ -83,5 +83,51 @@
 {
     line-height: -0.56px;
     font-size: 18px;
+    color:#696871;
+}
+
+.card.advantages
+{
+    width:307px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap:7px;
+    
+}
+.card-image
+{
+    width: 151px;
+    height:97px;
+}
+.card-image.bank-card
+{
+    padding: 20px 8px 13px 29px;
+}
+.card-image.calculator
+{
+    padding:12px 10px 13px 50px;
+}
+.card-image.camera
+{
+    padding:21px 16px 13px 17px;
+}
+
+.advantages-heading
+{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.75px;
+    font-family: sans-serif;
+}
+.advantages-description
+{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    line-height: 24px;
+    font-family: serif;
     color:#696871;
 }
